@@ -13,7 +13,7 @@ class CreateTableCampBenefits extends Migration
      */
     public function up()
     {
-        Schema::create('table_camp_benefits', function (Blueprint $table) {
+        Schema::create('camp_benefits', function (Blueprint $table) {
             $table->id();
 
             // 1st Method
